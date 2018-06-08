@@ -1,0 +1,24 @@
+WIFI
+
+1) Command line configuration
+
+auto wlp1s0
+iface wlp1s0 inet dhcp
+ 	wpa-ssid Sitecom4A1A43
+ 	wpa-psk 118c89441a3a0996c4aa68ba4097460b7bbfae45b9b5fb18052a719990e8a61d
+	
+	#wireless-essid Sitecom4A1A43
+	#wireless-mode Master
+	#wpa-psk BPRFP5QAMAQ5
+
+
+2) On GUI
+	a. Make sure icon are being shown and try to make appear nm-applet
+	b. Try
+
+systemctl list-units NetworkManager.service
+
+systemctl enable systemd-networkd
+systemctl enable network-manager
+
+/etc/init.d/network-manager restart

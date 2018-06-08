@@ -1,0 +1,16 @@
+[NotebookList]
+Default=
+1=~/documents/Notebooks/Workspace
+2=~/documents/Notebooks/JS
+
+[Notebook 1]
+uri=~/documents/Notebooks/Workspace
+name=Workspace
+interwiki=None
+icon=None
+
+[Notebook 2]
+uri=~/documents/Notebooks/JS
+name=JS
+interwiki=None
+icon=None

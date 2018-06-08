@@ -1,0 +1,11 @@
+# KEYBOARD CONFIGURATION FILE
+# File location /etc/default/keyboard
+
+# Consult the keyboard(5) manual page.
+
+XKBMODEL="pc105"
+XKBLAYOUT="us,latam"
+XKBVARIANT=""
+XKBOPTIONS="grp:rctrl_rshift_toggle"
+
+BACKSPACE="guess"

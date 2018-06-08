@@ -1,0 +1,16 @@
+[
+	{ "keys": ["ctrl+up"], "command": "scroll_lines", "args": {"amount": 1.0 } },
+	{ "keys": ["ctrl+down"], "command": "scroll_lines", "args": {"amount": -1.0 } },
+	{ "keys": ["alt+shift+l"],
+      "command": "insert_snippet",
+      "args": {
+        "contents": "console.log(${1:}$SELECTION);${0}"
+      }, "context":
+      [
+        { "key": "selector", "operator": "equal", "operand": "source.js", "match_all": true }
+      ]
+    },
+   { "keys": ["ctrl+shift+pagedown"], "command": "move_tab", "args": {"mod": 1} },
+   { "keys": ["ctrl+shift+pageup"], "command": "move_tab", "args": {"mod": -1} }
+]
+
