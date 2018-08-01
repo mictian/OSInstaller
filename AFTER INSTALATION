@@ -10,3 +10,48 @@ TODO
 # install & configure cron-apt
 https://www.techrepublic.com/article/automatically-update-your-ubuntu-system-with-cron-apt/
 
+
+install **acpi** to integrate battery information into spacevim powerstatus bar
+
+install ** 
+pip3 install --user neovim
+
+**
+To provide suport for python 3 on neovim!
+
+
+SPACE VIM
+===========================
+
+Add myspacevim.vim & init.toml files!
+
+Space Vim
+	prettier
+	eslint
+
+Install 
+(required for the spacevim typescript layer)
+npm install -g typescript
+(required for the spacevim html layer)
+npm install --global vscode-html-languageserver-bin
+(required for the spacevim markdown layer)
+npm -g install remark remark-cli remark-stringify
+
+FONTS LOG
+
+1) POWERLINES FONTS (IGNORE THIS!)
+	Installed
+	https://github.com/powerline/fonts
+
+	Set in lxapperance & termiantor 
+		Dejavu Sans Mono for Powerline Book
+
+2) POWERLINES FONTS (https://github.com/ryanoasis/nerd-fonts) 
+	Download from here https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/DejaVuSansMono/Regular/complete the font: "DejaVu Sans Mono Nerd Font Complete Mono.ttf"
+
+	Install it by moveing it into ~/.local/share/fonts
+
+	Select it on lxappearance
+
+
+

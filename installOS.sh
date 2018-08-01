@@ -50,9 +50,9 @@ sudo apt-get -q install xorg i3 terminator -y
 # General System Utils
 sudo apt-get -q install git gdebi htop software-properties-common arandr xbacklight gnome-icon-theme xfce4-screenshooter wireless-tools gsettings-desktop-schemas lxappearance trash-cli xinput -y
 # mount Andriod devices
-sudo apt-get -1 install jmtpfs -y
+sudo apt-get -q install jmtpfs -y
 # handle touchpad
-sudo apt-get -1 install xinput -y
+sudo apt-get -q install xinput -y
 # LAN/WAN Connection
 sudo apt-get -q install network-manager-gnome network-manager-openvpn* curl -y
 # File System
