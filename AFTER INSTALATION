@@ -1,5 +1,11 @@
 
 TODO
+* associate x mime type for pdf applications with evince
+xdg-mime default evince.desktop application/pdf
+
+Enable touchpad tap
+https://unix.stackexchange.com/questions/337008/activate-tap-to-click-on-touchpad
+ 
 # Less noisy apt
 # Test if Bright Install works as expected
 
