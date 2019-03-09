@@ -10,3 +10,4 @@ xmodmap /home/mictian/.config.custom/keySwapper &
 . /home/mictian/.config.custom/screenLayout.sh &
 
 blueman-applet &
+

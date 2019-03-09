@@ -57,8 +57,8 @@ sudo apt-get -q install xinput -y
 sudo apt-get -q install network-manager-gnome network-manager-openvpn* curl -y
 # File System
 sudo apt-get -q install thunar thunar-archive-plugin -y
-# Instant messages
-sudo apt-get -q install pidgin libnotify-bin dunst pidgin-libnotify -y
+# Notification (dunst)
+sudo apt-get -q install libnotify-bin dunst -y
 # PDF Viewer
 sudo apt-get -q install mirage evince -y
 # Media
