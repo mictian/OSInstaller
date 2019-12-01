@@ -3,9 +3,17 @@ TODO
 * associate x mime type for pdf applications with evince
 xdg-mime default evince.desktop application/pdf
 
+* add fzf as part of the installation
+
+Install fdfind
+sudo apt-get install fd-find
+OR
+https://github.com/sharkdp/fd/releases
+
+
 Enable touchpad tap
 https://unix.stackexchange.com/questions/337008/activate-tap-to-click-on-touchpad
- 
+
 # Less noisy apt
 # Test if Bright Install works as expected
 
@@ -19,7 +27,7 @@ https://www.techrepublic.com/article/automatically-update-your-ubuntu-system-wit
 
 install **acpi** to integrate battery information into spacevim powerstatus bar
 
-install ** 
+install **
 pip3 install --user neovim
 
 **
@@ -35,7 +43,7 @@ Space Vim
 	prettier
 	eslint
 
-Install 
+Install
 (required for the spacevim typescript layer)
 npm install -g typescript
 (required for the spacevim html layer)
@@ -49,10 +57,10 @@ FONTS LOG
 	Installed
 	https://github.com/powerline/fonts
 
-	Set in lxapperance & termiantor 
+	Set in lxapperance & termiantor
 		Dejavu Sans Mono for Powerline Book
 
-2) POWERLINES FONTS (https://github.com/ryanoasis/nerd-fonts) 
+2) POWERLINES FONTS (https://github.com/ryanoasis/nerd-fonts)
 	Download from here https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/DejaVuSansMono/Regular/complete the font: "DejaVu Sans Mono Nerd Font Complete Mono.ttf"
 
 	Install it by moveing it into ~/.local/share/fonts

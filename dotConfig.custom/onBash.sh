@@ -108,6 +108,9 @@ alias gno='gnome-open'
 alias xno='xdg-open'
 alias wheather='curl wttr.in/delft'
 alias nvim='nvim.appimage'
+alias ll='ls -l'
+alias pbcopy='xsel --clipboard --input'
+alias pbpaste='xsel --clipboard --output'
 
 #Fix NeoVim character
 #https://github.com/neovim/neovim/issues/5990
