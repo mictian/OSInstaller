@@ -1,71 +1,62 @@
 
 TODO
-* associate x mime type for pdf applications with evince
+* Associate x mime type for pdf applications with evince
 xdg-mime default evince.desktop application/pdf
 
-* add fzf as part of the installation
+* Add fzf as part of the installation
 
-Install fdfind
+* Install fdfind
 sudo apt-get install fd-find
 OR
 https://github.com/sharkdp/fd/releases
 
 
-Enable touchpad tap
+* Enable touchpad tap
 https://unix.stackexchange.com/questions/337008/activate-tap-to-click-on-touchpad
 
-# Less noisy apt
-# Test if Bright Install works as expected
+* Less noisy apt (add some params to reduce the output)
 
-# Add sublime packages (move tabs)
+* Test if Bright Install works as expected
 
-# fix onStartup file hardcoded mictian name
+* fix onStartup file hardcoded mictian name
 
-# install & configure cron-apt
+* Install & configure cron-apt
 https://www.techrepublic.com/article/automatically-update-your-ubuntu-system-with-cron-apt/
 
+* Set in lxapperance & termiantor
+Dejavu Sans Mono for Powerline Book
 
-install **acpi** to integrate battery information into spacevim powerstatus bar
+* Install asdf
+Install: git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.7.8
+Add to ~/.bashrc 
 
-install **
-pip3 install --user neovim
+# Generic asdf Version Manager for Deno & Node
+. $HOME/.asdf/asdf.sh
+. $HOME/.asdf/completions/asdf.bash
 
-**
-To provide suport for python 3 on neovim!
+Reload bashrc
+source ~/.bashrc
+
+Add Deno plugin
+asdf plugin-add deno https://github.com/asdf-community/asdf-deno.git
+
+Install Deno
+asdf install deno latest
+
+Activate Deno
+asdf global deno 1.0.2 
 
 
-SPACE VIM
-===========================
+EVALUATE
 
-Add myspacevim.vim & init.toml files!
+* Use ASDF for Node
+https://github.com/asdf-vm/asdf-nodejs
 
-Space Vim
-	prettier
-	eslint
-
-Install
-(required for the spacevim typescript layer)
-npm install -g typescript
-(required for the spacevim html layer)
-npm install --global vscode-html-languageserver-bin
-(required for the spacevim markdown layer)
-npm -g install remark remark-cli remark-stringify
-
-FONTS LOG
-
-1) POWERLINES FONTS (IGNORE THIS!)
-	Installed
+* Install/Add Powerlines Fonts
 	https://github.com/powerline/fonts
 
-	Set in lxapperance & termiantor
-		Dejavu Sans Mono for Powerline Book
-
-2) POWERLINES FONTS (https://github.com/ryanoasis/nerd-fonts)
+* Install/Add PowerLines Fonts (https://github.com/ryanoasis/nerd-fonts)
 	Download from here https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/DejaVuSansMono/Regular/complete the font: "DejaVu Sans Mono Nerd Font Complete Mono.ttf"
-
 	Install it by moveing it into ~/.local/share/fonts
-
 	Select it on lxappearance
-
-
 
