@@ -176,7 +176,8 @@ bindsym XF86MonBrightnessDown exec /home/mictian/.config.custom/screenBright.sh 
 
 
 # Touchpad controls (toggle touchpad)
-bindsym sXF86TouchpadToggle exec /home/mictian/.config.custom/touchpathToggle.sh
+bindsym XF86TouchpadToggle exec /home/mictian/.config.custom/touchpathToggle.sh
+
 
 # Media player controls
 bindsym XF86AudioPlay exec playerctl play
