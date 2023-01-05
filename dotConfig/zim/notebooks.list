@@ -1,16 +1,51 @@
 [NotebookList]
 Default=
-1=~/documents/Notebooks/Workspace
-2=~/documents/Notebooks/JS
+1=~/documents/Personal/Pleasure/Technology/Theoretical Topics/Wiki/Theoretical Topics
+2=~/documents/Personal/Pleasure/Technology/Cloud/AWS/Wiki
+3=~/documents/Workspace/Wiki/Workspace
+4=~/documents/Personal/Pleasure/Technology/Development/Web/Cross-language/Information/Wiki/HTML_and_CSS
+5=~/documents/Personal/Need/Wiki/Data Management
+6=~/documents/Work/Employeers/Netherlands/Booking.com/Wiki/Booking
+7=~/documents/Personal/Pleasure/Technology/Development/Web/Language Specific/JS-TypeScript/Information/Wiki
 
 [Notebook 1]
-uri=~/documents/Notebooks/Workspace
-name=Workspace
+uri=~/documents/Personal/Pleasure/Technology/Theoretical Topics/Wiki/Theoretical Topics
+name=General Development
 interwiki=None
 icon=None
 
 [Notebook 2]
-uri=~/documents/Notebooks/JS
+uri=~/documents/Personal/Pleasure/Technology/Cloud/AWS/Wiki
+name=AWS
+interwiki=None
+icon=None
+
+[Notebook 3]
+uri=~/documents/Workspace/Wiki/Workspace
+name=Workspace
+interwiki=None
+icon=None
+
+[Notebook 4]
+uri=~/documents/Personal/Pleasure/Technology/Development/Web/Cross-language/Information/Wiki/HTML_and_CSS
+name=HTML_and_CSS
+interwiki=None
+icon=None
+
+[Notebook 5]
+uri=~/documents/Personal/Need/Wiki/Data Management
+name=Data Management
+interwiki=None
+icon=None
+
+[Notebook 6]
+uri=~/documents/Work/Employeers/Netherlands/Booking.com/Wiki/Booking
+name=Booking
+interwiki=None
+icon=None
+
+[Notebook 7]
+uri=~/documents/Personal/Pleasure/Technology/Development/Web/Language Specific/JS-TypeScript/Information/Wiki
 name=JS
 interwiki=None
 icon=None
