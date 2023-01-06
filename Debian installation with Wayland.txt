@@ -1,0 +1,43 @@
+Debian installation with Wayland
+
+TODO
+
+Install GNU GP2
+https://stackoverflow.com/questions/50757647/e-gnupg-gnupg2-and-gnupg1-do-not-seem-to-be-installed-but-one-of-them-is-requ
+
+
+READ
+General about Sway
+https://wiki.archlinux.org/title/Sway
+https://github.com/swaywm/sway/wiki
+
+Launchers
+https://github.com/swaywm/sway/wiki/Useful-add-ons-for-sway
+
+
+-------------------
+
+1. Install Debian Server
+
+Install sudo
+https://unix.stackexchange.com/questions/354928/bash-sudo-command-not-found
+
+
+
+
+# Make Google Chrome work on Sway
+
+sudo apt-get install:
+    xwayland
+    mako-notifier
+    wayland-protocols
+    fonts-liberation
+    wdisplays (this one help to set up the resolution)
+    wlr-randr
+    gdebi
+    fzf
+    curl
+
+
+
+google-chrome --ozone-platform=wayland
